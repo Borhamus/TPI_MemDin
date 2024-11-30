@@ -1,0 +1,131 @@
+Simulación:
+- Número de simulación: 1
+- Número de Requerimientos: 10
+Configuración:
+- Tamaño de la memoria: 130 KB
+- Estrategia de asignación: First-Fit
+- Tiempo de selección de partición: 0 ms
+- Tiempo de carga promedio: 0 ms
+- Tiempo de liberación de partición: 0 ms
+Eventos:
+Tiempo: 0
+El Proceso "p1" de peso 30 se inserta en la particion "0"
+Se crea una nueva particion libre"1" con un tamaño de 100
+fe: 100
+Tiempo: 1
+El Proceso "p2" de peso 20 se inserta en la particion "1"
+Se crea una nueva particion libre"2" con un tamaño de 80
+fe: 180
+Tiempo: 2
+El Proceso "p3" de peso 20 se inserta en la particion "2"
+Se crea una nueva particion libre"3" con un tamaño de 60
+fe: 240
+Tiempo: 3
+El Proceso "p4" de peso 20 se inserta en la particion "3"
+Se crea una nueva particion libre"4" con un tamaño de 40
+fe: 280
+Tiempo: 4
+El Proceso "p5" de peso 30 se inserta en la particion "4"
+Se crea una nueva particion libre"5" con un tamaño de 10
+fe: 290
+Tiempo: 5
+No se encontro espacio suficiente para el proceso "p6"
+El proceso p1 finalizo en el tiempo: 5. la particion 0 se liberara en 0ms.
+Se libera la partición: 0. Que albergaba al proceso: p1
+El proceso p3 finalizo en el tiempo: 5. la particion 2 se liberara en 0ms.
+Se libera la partición: 2. Que albergaba al proceso: p3
+El proceso p5 finalizo en el tiempo: 5. la particion 4 se liberara en 0ms.
+Se libera la partición: 4. Que albergaba al proceso: p5
+La partición 4 se une con la partición 5
+Dadas las uniones entre particiones, se crea una nueva partición 6 de tamaño: 40
+Tiempo: 6
+El Proceso "p6" de peso 20 se inserta en la particion "0"
+Se crea una nueva particion libre"7" con un tamaño de 10
+fe: 310
+fe: 330
+fe: 370
+Tiempo: 7
+El Proceso "p7" de peso 30 se inserta en la particion "6"
+Se crea una nueva particion libre"8" con un tamaño de 10
+fe: 380
+fe: 400
+fe: 410
+Tiempo: 8
+El Proceso "p8" de peso 10 se inserta en la particion "7"
+fe: 430
+fe: 440
+Tiempo: 9
+El Proceso "p9" de peso 10 se inserta en la particion "2"
+Se crea una nueva particion libre"9" con un tamaño de 10
+fe: 450
+fe: 460
+Tiempo: 10
+No se encontro espacio suficiente para el proceso "p10"
+El proceso p8 finalizo en el tiempo: 10. la particion 7 se liberara en 0ms.
+Se libera la partición: 7. Que albergaba al proceso: p8
+fe: 470
+fe: 480
+Tiempo: 11
+No se encontro espacio suficiente para el proceso "p10"
+fe: 490
+fe: 500
+fe: 510
+Tiempo: 12
+No se encontro espacio suficiente para el proceso "p10"
+fe: 520
+fe: 530
+El proceso p4 finalizo en el tiempo: 12. la particion 3 se liberara en 0ms.
+Se libera la partición: 3. Que albergaba al proceso: p4
+La partición 3 se une con la partición 9
+Dadas las uniones entre particiones, se crea una nueva partición 10 de tamaño: 30
+fe: 540
+Tiempo: 13
+El Proceso "p10" de peso 20 se inserta en la particion "10"
+Se crea una nueva particion libre"11" con un tamaño de 10
+El proceso p6 finalizo en el tiempo: 13. la particion 0 se liberara en 0ms.
+Se libera la partición: 0. Que albergaba al proceso: p6
+La partición 0 se une con la partición 7
+Dadas las uniones entre particiones, se crea una nueva partición 12 de tamaño: 30
+El proceso p9 finalizo en el tiempo: 13. la particion 2 se liberara en 0ms.
+Se libera la partición: 2. Que albergaba al proceso: p9
+Tiempo: 14
+Tiempo: 15
+El proceso p2 finalizo en el tiempo: 15. la particion 1 se liberara en 0ms.
+Se libera la partición: 1. Que albergaba al proceso: p2
+La partición 1 se une con la partición 2
+La partición 1 se une con la partición 12
+Dadas las uniones entre particiones, se crea una nueva partición 13 de tamaño: 60
+Tiempo: 16
+El proceso p7 finalizo en el tiempo: 16. la particion 6 se liberara en 0ms.
+Se libera la partición: 6. Que albergaba al proceso: p7
+La partición 6 se une con la partición 8
+La partición 6 se une con la partición 11
+Dadas las uniones entre particiones, se crea una nueva partición 14 de tamaño: 50
+Tiempo: 17
+Tiempo: 18
+Tiempo: 19
+Tiempo: 20
+El proceso p10 finalizo en el tiempo: 20. la particion 10 se liberara en 0ms.
+Se libera la partición: 10. Que albergaba al proceso: p10
+La partición 10 se une con la partición 14
+La partición 10 se une con la partición 13
+Dadas las uniones entre particiones, se crea una nueva partición 15 de tamaño: 130
+===========================================================
+Resultados:
+Tiempo de retorno del proceso p1: 5
+Tiempo de retorno del proceso p3: 5
+Tiempo de retorno del proceso p5: 5
+Tiempo de retorno del proceso p8: 10
+Tiempo de retorno del proceso p4: 12
+Tiempo de retorno del proceso p6: 13
+Tiempo de retorno del proceso p9: 13
+Tiempo de retorno del proceso p2: 15
+Tiempo de retorno del proceso p7: 16
+Tiempo de retorno del proceso p10: 20
+fragmentacion externa FE: 540.
+Finalizacion de la tanda: 20.
+Fin de la simulacion
+Resultado total de los retornos de los procesos: 114
+Tiempo de Retorno Normalizado: 11,4
+===========================================================
+Simulación Finalizada.
